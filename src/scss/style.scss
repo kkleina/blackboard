@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin&subset=latin-ext');
+
+$blackBoard: #201d23;
+$whiteChalk: #f4f1e4;
+$borderBpard: #67422d;
+$primaryFont: 'Pangolin', cursive;
+
+.board {
+  background: $blackBoard;
+  border: 10px solid $borderBpard;
+  color: $whiteChalk;
+  font-family: $primaryFont;
+  min-height: calc(100vh - 3rem);
+}
+
+table {
+  td {
+    border: 1px solid #47414E;
+    line-height: 40px;
+    width: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .board {
+    min-height: 100vh;
+  }
+
+  table {
+    td {
+      font-size: .8rem;
+      line-height: 30px;
+      width: 30px;
+    }
+  }
+}

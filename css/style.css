@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Pangolin&subset=latin-ext");
+.board {
+  background: #201d23;
+  border: 10px solid #67422d;
+  color: #f4f1e4;
+  font-family: "Pangolin", cursive;
+  min-height: calc(100vh - 3rem); }
+
+table td {
+  border: 1px solid #47414E;
+  line-height: 40px;
+  width: 40px; }
+
+@media (max-width: 575px) {
+  .board {
+    min-height: 100vh; }
+  table td {
+    font-size: .8rem;
+    line-height: 30px;
+    width: 30px; } }
