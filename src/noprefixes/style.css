@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Pangolin&subset=latin-ext");
+button {
+  cursor: pointer; }
+
 .board {
   background: #201d23;
   border: 10px solid #67422d;

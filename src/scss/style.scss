@@ -5,6 +5,10 @@ $whiteChalk: #f4f1e4;
 $borderBpard: #67422d;
 $primaryFont: 'Pangolin', cursive;
 
+button {
+  cursor: pointer;
+}
+
 .board {
   background: $blackBoard;
   border: 10px solid $borderBpard;
